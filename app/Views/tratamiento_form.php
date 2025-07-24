@@ -24,7 +24,7 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for="descripcion" class="form-label">Descripción:</label>
+                    <label for="descripcion" class="form-label">Descripción Tratamiento:</label>
                     <textarea class="form-control" name="descripcion" id="descripcion" rows="3" required><?= old('descripcion') ?></textarea>
                 </div>
 
