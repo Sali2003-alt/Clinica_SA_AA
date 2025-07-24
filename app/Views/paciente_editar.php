@@ -16,7 +16,7 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for="apellido" class="form-label">Apellido:</label>
+                    <label for="apellido" class="form-label">Apellido Paciente:</label>
                     <input type="text" class="form-control" name="apellido" id="apellido" required
                         value="<?= esc($paciente['apellido']) ?>">
                 </div>
