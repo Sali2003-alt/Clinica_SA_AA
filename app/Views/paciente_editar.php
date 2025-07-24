@@ -10,7 +10,7 @@
             <form action="<?= base_url('paciente_actualizar/' . $paciente['id_paciente']) ?>" method="post" class="p-4 border rounded bg-light">
 
                 <div class="mb-3">
-                    <label for="nombre" class="form-label">Nombre:</label>
+                    <label for="nombre" class="form-label">Nombre Paciente:</label>
                     <input type="text" class="form-control" name="nombre" id="nombre" required
                         value="<?= esc($paciente['nombre']) ?>">
                 </div>
