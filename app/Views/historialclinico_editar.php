@@ -11,7 +11,7 @@
                 <?= csrf_field() ?>
 
                 <div class="mb-3">
-                    <label for="diagnostico" class="form-label">Diagnóstico:</label>
+                    <label for="diagnostico" class="form-label">Diagnóstico :</label>
                     <input type="text" class="form-control" name="diagnostico" id="diagnostico" required
                         value="<?= esc($historial['diagnostico']) ?>">
                 </div>
