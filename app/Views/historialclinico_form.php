@@ -21,7 +21,7 @@
                 <?= csrf_field() ?>
 
                 <div class="mb-3">
-                    <label for="diagnostico" class="form-label">Diagnóstico</label>
+                    <label for="diagnostico" class="form-label">Diagnóstico: </label>
                     <input type="text" name="diagnostico" id="diagnostico" class="form-control" value="<?= old('diagnostico') ?>" required>
                 </div>
 
